@@ -1,0 +1,32 @@
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 30px 20px 10px;
+    background-color: $silver;
+    color: $white;
+
+    &__h3{
+        font-size: 30px;
+    }
+
+    &__text{
+        padding: 20px 0;
+    }
+    &__icons {
+        svg{
+            height: 25px;
+            width: 25px;
+            color: $green ;
+            margin-right: 10px;
+        }
+    }
+    &__copyright{
+        padding: 15px 0 0;
+        font-size: 13px;
+    }
+
+    @include responsive(765px) {
+        margin-top: 00px;
+      }
+    
+}
